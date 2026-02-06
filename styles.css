@@ -1,0 +1,65 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+*/
+
+/*google font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400&display=swap');
+
+/*main css*/
+
+
+* {
+   box-sizing: border-box;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+body {
+   background-color: #EB54BA;
+   font-family: 'Lato', sans-serif;
+   /*font-family: 'Montserrat', sans-serif;*/
+}
+
+.startpage {
+   max-width: 1000px;
+   margin: 20px auto;
+   padding-top: 20px;
+}
+
+.playbutton {
+   margin-left: 48%;
+   margin-top: -310px;
+}
+
+.play {
+   width: 100px;
+   height: 50px;
+   border-radius: 20%;
+}
+
+
+
+
+/*media query for responsive design */
+
+@media only screen and (max-width: 640px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

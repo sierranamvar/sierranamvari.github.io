@@ -1,0 +1,132 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+*/
+
+/*google font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400&display=swap');
+
+/*main css*/
+
+
+* {
+   box-sizing: border-box;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+body {
+   background-color: #EB54BA;
+   font-family: 'Lato', sans-serif;
+   /*font-family: 'Montserrat', sans-serif;*/
+}
+
+
+
+.staffocbehind img{
+   width: 330px;
+   height: 400px;
+   max-width: 600px;
+   image-rendering: pixelated;
+   margin: 200px auto;
+   margin-left: 360px;
+   margin-top: -370px;
+   margin-bottom:-50px;
+}
+
+.cupcakeriacounter img{
+   max-width: 1000px;
+   margin: 20px auto;
+   padding-top: 20px;
+}
+
+.customer1counter img{
+   width: 270px;
+   height: 300px;
+   max-width: 600px;
+   image-rendering: pixelated;
+   margin: 200px auto;
+   margin-left: 610px;
+   margin-top: -468px;
+   margin-bottom:-50px;
+}
+
+.batterstation {
+   position: relative;
+   padding: 10px;
+   border-radius: 16px;
+   border-color: deeppink;
+   margin-left: 540px;
+   scale: 1.6;
+   top: 130px;
+   color: palevioletred;
+}
+
+.bakestation {
+   position: relative;
+   padding: 10px;
+   border-radius: 16px;
+   border-color: deeppink;
+   margin-left: 650px;
+   scale: 1.6;
+   top: 87px;
+   color: palevioletred;
+}
+
+.decorstation {
+   position: relative;
+   padding: 10px;
+   border-radius: 16px;
+   border-color: deeppink;
+   margin-left: 756px;
+   scale: 1.6;
+   top: 42px;
+   color: palevioletred;
+}
+
+.orderbutton {
+   position: relative;
+   top: -310px;
+   margin-left: 825px;
+   scale: 1.3;
+   color: palevioletred;
+   padding: 10px;
+   border-radius: 16px;
+   border-color: pink;
+}
+
+.orderone img{
+   width: 350px;
+   height: 450px;
+   max-width: 600px;
+   image-rendering: pixelated;
+   margin: 200px auto;
+   margin-left: 900px;
+   margin-top: -430px;
+   margin-bottom:-50px;
+   display: none;
+}
+
+
+/*media query for responsive design */
+
+@media only screen and (max-width: 640px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+*/
+
+/*google font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400&display=swap');
+
+/*main css*/
+
+
+* {
+   box-sizing: border-box;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+body {
+   background-color: #EB54BA;
+   font-family: 'Lato', sans-serif;
+   /*font-family: 'Montserrat', sans-serif;*/
+}
+
+
+.bakerack img{
+   max-width: 1000px;
+   margin: 20px auto;
+   padding-top: 20px;
+}
+
+.bakestation {
+   position: relative;
+   padding: 10px;
+   border-radius: 16px;
+   border-color: deeppink;
+   margin-left: 650px;
+   scale: 1.6;
+   top: -118px;
+   color: palevioletred;
+}
+
+.batterstation {
+   position: relative;
+   padding: 10px;
+   border-radius: 16px;
+   border-color: deeppink;
+   margin-left: 630px;
+   scale: 1.6;
+   top: -40px;
+   color: palevioletred;
+}
+.decorstation {
+   position: relative;
+   padding: 10px;
+   border-radius: 16px;
+   border-color: deeppink;
+   margin-left: 756px;
+   scale: 1.6;
+   top: -85px;
+   color: palevioletred;
+}
+
+/*media query for responsive design */
+
+@media only screen and (max-width: 640px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

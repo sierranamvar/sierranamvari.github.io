@@ -1,0 +1,121 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+*/
+
+/*google font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400&display=swap');
+
+/*main css*/
+
+
+* {
+   box-sizing: border-box;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+body {
+   background-color: #EB54BA;
+   font-family: 'Lato', sans-serif;
+   /*font-family: 'Montserrat', sans-serif;*/
+}
+
+
+.decorstation img{
+   max-width: 1000px;
+   margin: 20px auto;
+   padding-top: 20px;
+}
+
+.bakestation {
+   position: relative;
+   padding: 10px;
+   border-radius: 16px;
+   border-color: deeppink;
+   margin-left: 745px;
+   scale: 1.6;
+   top: -85px;
+   color: palevioletred;
+   z-index: 10;
+}
+.batterstation {
+   position: relative;
+   padding: 10px;
+   border-radius: 16px;
+   border-color: deeppink;
+   margin-left: 630px;
+   scale: 1.6;
+   top: -40px;
+   color: palevioletred;
+   z-index: 10;
+}
+
+.serve {
+   position: absolute;
+   padding: 10px;
+   border-radius: 16px;
+   border-color: deeppink;
+   margin-left: 845px;
+   scale: 1.6;
+   top: 580px;
+   color: palevioletred;
+   z-index: 10;
+}
+
+.cherries {
+   position: relative;
+   padding: 10px;
+   margin-left: 250px;
+   scale: 0.03;
+   top: -1280px;
+   z-index: 110;
+}
+
+.cherries img{
+   pointer-events: auto;
+}
+
+.frosting {
+  position: absolute;
+  left: -300px;
+  top: 40px;
+  transform: scale(0.7);
+  cursor: pointer;
+  z-index: 100;
+}
+
+.frosting img{
+   pointer-events: auto;
+}
+
+
+.frosted img{
+   position: absolute;
+   top: -60px;
+   scale: 0.6;
+   display: none;
+}
+
+/*media query for responsive design */
+
+@media only screen and (max-width: 640px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
